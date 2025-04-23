@@ -1,0 +1,56 @@
+{
+    "name": "react-breakpoint-observer-hook",
+    "private": false,
+    "version": "1.0.1",
+    "description": "Breakpoint Observer react-hook, for work with media breakpoints, based on Resize Observer",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yani4218/use-breakpoint-observer.git"
+    },
+    "main": "dist/my-lib.cjs.js",
+    "module": "dist/my-lib.es.js",
+    "browser": "dist/my-lib.umd.js",
+    "types": "dist/types/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "lint": "eslint . --quiet",
+        "test": "jest",
+        "prettier:check": "prettier --check './**/*.{ts,tsx,css,md,json}' --config ./.prettierrc",
+        "prettier:format": "prettier --write './**/*.{ts,tsx,css,md,json}' --config ./.prettierrc",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "@types/node": "^22.13.10",
+        "@types/react": "^19.0.10",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react-swc": "^3.8.0",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "eslint-plugin-react-hooks": "^5.1.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "globals": "^15.15.0",
+        "prettier": "^3.4.2",
+        "typescript": "~5.7.2",
+        "typescript-eslint": "^8.24.1",
+        "vite": "^6.2.0",
+        "vite-plugin-dts": "^4.5.3",
+        "jest-environment-jsdom": "^29.7.0",
+        "@testing-library/dom": "^10.4.0",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.2.0",
+        "@types/jest": "^29.5.14",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5"
+    }
+}
